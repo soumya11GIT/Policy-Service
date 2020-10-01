@@ -18,7 +18,7 @@ public class PolicyController {
 	
 	@RequestMapping(value="/hello")
 	public String hello() {
-		return "hey there";
+		return "hey there Soumya";
 	}
 
 	@RequestMapping(value="/policy", method = RequestMethod.POST)
